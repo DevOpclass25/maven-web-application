@@ -14,6 +14,7 @@
 	Landmark Technologies is a software development company. 
 	Practise is going according to plan
 	God is changing my career from ordinary to extraordinary
+	Amen
 	The shout of the King Jesus is in our midst. HE IS OUR SUCCESS ACCESS KEY</h2>
 <hr>
 <div style="text-align: center;">
