@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<version>1.1.2-RELEASE</version>
 	
-	<name>maven-web-application</name>
+	<name>maven-web-apps</name>
 
 	<description>Maven Web Project for Java Project</description>
 
