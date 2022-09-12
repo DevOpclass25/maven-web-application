@@ -14,7 +14,7 @@
 	Landmark Technologies is a software development company. 
 	Practise is going according to plan
 	God is changing my career from ordinary to extraordinary
-	New Changes in my devop career
+	I'll get a devop job for $240000
 	Amen
 	The shout of the King Jesus is in our midst. HE IS OUR SUCCESS ACCESS KEY</h2>
 <hr>
