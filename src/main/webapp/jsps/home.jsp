@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to Landmark Technologies.</h1>
-<h2 align="center"> We are supporting the Ebay Black Friday Project.
+<h2 align="center"> We are supporting the Maven web Project.
 	Landmark Technologies is a software development company. 
 	Practise is going according to plan
 	God is changing my career from ordinary to extraordinary
