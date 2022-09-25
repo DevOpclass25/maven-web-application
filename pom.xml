@@ -26,7 +26,7 @@
 		<sonar.password>Funm!29$$</sonar.password>
 		<nexus.host.url>http://3.145.128.150:8081/</nexus.host.url>
 		<nexus.login>Developer</nexus.login>
-	        <nexus.password>Funm!29$$</nexus.password>
+	        <nexus.password>admin</nexus.password>
 
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
