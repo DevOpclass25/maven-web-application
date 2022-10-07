@@ -1,0 +1,20 @@
+FROM centos
+
+COPY target/*.war /home/ubuntu/local-repo/maven-web-application/target/maven-web-application.war
+
+MAINTAINER hello@gritfy.com
+
+RUN mkdir /opt/tomcat9/
+
+WORKDIR /opt/tomcat9
+RUN curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.68/bin/apache-tomcat-9.0.68.tar.gz
+RUN tar xvfz apache*.tar.gz
+RUN mv tomcat-9.0.68/* /opt/tomcat9/.
+
+
+WORKDIR /opt/tomcat9/webapps
+RUN curl -O -L https://github.com/DevOpclass25/maven-web-application.git
+
+EXPOSE 8080
+
+CMD ["/opt/tomcat9/bin/startup.sh", "run"]
