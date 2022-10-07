@@ -1,5 +1,3 @@
 FROM tomcat:8.0.20-jre8
-# Learning webhook in github
-# Dummy text to test
-# CI CD
-COPY target/*.war /usr/local/tomcat/webapps/maven-web-app.war
+COPY target/*.war /home/ubuntu/local-repo/maven-web-application/target/maven-web-application.war 
+
