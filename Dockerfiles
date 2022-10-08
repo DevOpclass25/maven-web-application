@@ -1,4 +1,4 @@
-FROM centos
+FROM devopsec360
 
 COPY target/*.war /home/ubuntu/local-repo/maven-web-application/target/maven-web-application.war
 
