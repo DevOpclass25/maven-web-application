@@ -24,7 +24,7 @@
 		<sonar.host.url>http://172.31.28.214:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
-		<nexus.host.url>http://3.145.128.150:8081/</nexus.host.url>
+		<nexus.host.url>http://52.15.199.84:8081/</nexus.host.url>
 		<nexus.login>Developer</nexus.login>
 	        <nexus.password>admin</nexus.password>
 
@@ -103,13 +103,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.145.128.150:8081/repository/maven-web-apps-release/</url>
+	      <url>http://52.15.199.84:8081/repository/maven-web-apps-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository</name>
-	      <url>http://3.145.128.150:8081/repository/maven-web-apps-snapshot/</url>
+	      <url>http://52.15.199.84:8081/repository/maven-web-apps-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

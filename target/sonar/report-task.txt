@@ -1,0 +1,6 @@
+projectKey=com.mt:maven-web-application
+serverUrl=http://172.31.28.214:9000
+serverVersion=9.7.0.61563
+dashboardUrl=http://172.31.28.214:9000/dashboard?id=com.mt%3Amaven-web-application
+ceTaskId=AYPyPk4tEyTIHUUNvm5o
+ceTaskUrl=http://172.31.28.214:9000/api/ce/task?id=AYPyPk4tEyTIHUUNvm5o
