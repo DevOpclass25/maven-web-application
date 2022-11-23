@@ -10,11 +10,18 @@ pipeline {
                 git 'https://github.com/DevOpclass25/maven-web-application.git'
             }
         }
-            stage ('Unit Test'){
+            stage ('Unit testing'){
 
             steps {
                 sh 'mvn test'
             }
         }
+        stage ('Integration testing'){
+
+            steps {
+                sh 'mvn verify -DskipUnitTests'
+            }
+        }
+        
     }
 }
