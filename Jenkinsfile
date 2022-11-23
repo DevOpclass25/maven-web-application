@@ -30,8 +30,9 @@ pipeline {
         }
         stage ('Static code analysis'){
             steps {
-                waitForQualityGate abortPipeline: false, credentialsId: 'sonar-api-key'
-                sh 'mvn clean package sonar:sonar'
+                waitForQualityGate abortPipeline: false, credentialsId: 'sonar-api-key' {
+                     sh 'mvn clean package sonar:sonar'
+                }
             }
         }    
     }
