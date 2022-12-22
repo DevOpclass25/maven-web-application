@@ -27,6 +27,10 @@ pipeline {
             steps {
                 sh 'mvn clean install'
             }
+        stage ('Deploy to docker'){
+
+              //  sh 
+                }
+            }
         }
-    }
-}  
+    }  
